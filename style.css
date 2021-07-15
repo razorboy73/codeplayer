@@ -1,6 +1,87 @@
-#mainContainer{
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
-    background-color: black;
+
+
+
+
+#topBar{
+    position: relative;
+    background-color: #eeeeee;
+    padding: 5px;
     width: 100%;
-    height: 200px;
+    height: 20px;
+}
+#logo{
+    float: left;
+  
+}
+
+#buttonBarContainer{
+    
+    width: 300px;
+    margin: 0 auto;
+   
+
+}
+.menuBarButton{
+
+float: left;
+border: 1px solid black;
+border-right: none;
+padding: 4px;
+
+}
+
+#html {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+#output {
+    border-right: 1px solid black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+    
+
+#codeBox{
+    position:relative;
+    top:50px;
+    width:100%;
+    height: 800px;
+
+ }
+#codePanel1{
+    position:relative;
+    float: left;
+    border: 1px solid black;
+    width: 20%;
+    height: 800px;
+}
+#codePanel2{
+ position:relative;
+ float: left;
+ border: 1px solid black;
+ width: 20%;
+ height: 800px;
+}
+#codePanel3{
+ position:relative;
+ float: left;
+ border: 1px solid black;
+ width: 20%;
+ height: 800px;
+}
+#codePanel4{
+ position:relative;
+ float: left;
+ border: 1px solid black;
+ width: 20%;
+ height: 800px;
 }
